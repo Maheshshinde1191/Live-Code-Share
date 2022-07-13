@@ -1,0 +1,31 @@
+<div class = 'container mt-1'>
+    <h1 class= "nav-title">Live Code Share</h1>
+    <p class = "descp">
+        A live realtime collaborative coding platform.
+    </p>
+    <p class = 'main-text'>
+
+
+        Collab with your friends, colleagues and code together in realtime!.
+        You can use it to conduct interviews, help your friend debug some code, explaining the working of a code and much more.
+        Basically it makes learning programming together much easy and fun!.
+
+
+    </p>
+    <br>
+    <div class="row justify-content-center">
+        {{#if user}}
+        {{else}}
+      <a href="/register" class=' m-1' >  <button class = " p-2 main-text gets m-auto btn btn-primary
+         " > Get Started </button>
+        </a>
+        {{/if}}
+        <a href="/createTask" class='m-1 '> <button class=" p-2 main-text gets m-auto btn btn-primary
+                     "> Create a Collab </button>
+        </a>
+    </div>
+
+    
+</div>
+
+
